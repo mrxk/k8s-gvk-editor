@@ -7587,8 +7587,8 @@ var $author$project$View$viewField = function (field) {
 		var name = field.b;
 		var object = field.c;
 		var expandText = description.visible ? $elm$core$String$fromChar(
-			_Utils_chr('⬁')) : $elm$core$String$fromChar(
-			_Utils_chr('⬂'));
+			_Utils_chr('⬉')) : $elm$core$String$fromChar(
+			_Utils_chr('⬊'));
 		var expandElement = $author$project$Object$objectIsExpandable(object) ? A2(
 			$elm$html$Html$div,
 			_List_fromArray(
@@ -7992,9 +7992,9 @@ var $author$project$Model$ToggleAll = function (a) {
 };
 var $author$project$View$viewToggleAllButton = function () {
 	var hideText = $elm$core$String$fromChar(
-		_Utils_chr('⬁'));
+		_Utils_chr('⬉'));
 	var expandText = $elm$core$String$fromChar(
-		_Utils_chr('⬂'));
+		_Utils_chr('⬊'));
 	return A2(
 		$elm$html$Html$div,
 		_List_fromArray(

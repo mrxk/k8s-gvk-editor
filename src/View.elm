@@ -71,10 +71,12 @@ viewToggleAllButton : Html.Html Model.Msg
 viewToggleAllButton =
     let
         hideText =
-            String.fromChar '⬁'
+            --'⬁'
+            String.fromChar '⬉'
 
         expandText =
-            String.fromChar '⬂'
+            --'⬂'
+            String.fromChar '⬊'
     in
     Html.div [ Attr.class "toggleAllButton" ]
         [ Html.span [ Evt.onClick (Model.ToggleAll False) ]
@@ -167,10 +169,12 @@ viewField field =
 
                 expandText =
                     if description.visible then
-                        String.fromChar '⬁'
+                        -- '⬁'
+                        String.fromChar '⬉'
 
                     else
-                        String.fromChar '⬂'
+                        -- '⬂'
+                        String.fromChar '⬊'
 
                 expandElement =
                     if Object.objectIsExpandable object then
