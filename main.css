@@ -1,0 +1,115 @@
+div {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+table {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+tbody {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+thead {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+tr {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+td {
+	vertical-align: top;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+input {
+	width: 100%;
+	border: 1px solid cornflowerblue;
+}
+.typeSelector {
+	width: 100%;
+}
+.typeSelectorTable {
+	width: 100%;
+}
+.typeSelectorLabel {
+	width: 100px;
+}
+.expandButton {
+	float: right;
+	cursor: pointer;
+	width: 1em;
+	text-align: center;
+}
+.toggleAllButton {
+	float: right;
+	cursor: pointer;
+	text-align: center;
+}
+.toggleAllButton span {
+	display: inline-block;
+	width: 1em;
+}
+.addButton {
+	float: right;
+	cursor: pointer;
+	padding-left: 5px;
+	margin-left: 2px;
+}
+.removeButton {
+	float: right;
+	cursor: pointer;
+	padding-right: 5px;
+	margin-right: 2px;
+}
+.fieldName {
+	position: sticky;
+	top: .5em;
+	height: 100%;
+	margin-top: 2px;
+	border-top: 1px solid black;
+	padding-top: 2px;
+}
+.fieldName span {
+	padding-right: 2px;
+}
+.fieldValue {
+	margin-top: 2px;
+	border-top: 1px solid black;
+	padding-top: 2px;
+	width: 100%;
+}
+.fieldValue table {
+	width: 100%;
+}
+.arrayIndex{
+	font-size: x-small;
+}
+.infoOnly {
+	width: 500px;
+}
+.note {
+	margin-top: 1em;
+	cursor: pointer;
+}
+.form {
+	margin-top: 1em;
+}
+.yaml textarea {
+    white-space: pre;
+    overflow-wrap: normal;
+    border: 0px;
+    color: black;
+    background-color: white;
+}
+.copyButton {
+	margin-top: 1em;
+}

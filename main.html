@@ -1,0 +1,25 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Main</title>
+  <script src="main.js"></script>
+  <script src="swagger.json"></script>
+  <link href="main.css" rel="stylesheet"></link>
+</head>
+
+<body>
+  <div id="myapp"></div>
+  <script>
+  var app = Elm.Main.init({
+    flags: JSON.stringify(Swagger),
+    node: document.getElementById('myapp')
+  });
+  app.ports.copy.subscribe(function(yaml) {
+    navigator.clipboard.writeText(yaml).then(function() {
+      console.log("Copied:\n" + yaml)
+    }, function() {
+      console.log("Failed to copy:\n" + yaml)
+    });
+  });
+  </script>
+</body>
+</html>

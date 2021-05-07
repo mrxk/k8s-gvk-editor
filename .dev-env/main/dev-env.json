@@ -1,0 +1,7 @@
+{
+    "containerArgs": [
+        "-v", "${PROJECTROOT}:/src",
+        "-w", "/src"
+    ],
+    "name": "k8s-gvk-editor"
+}
