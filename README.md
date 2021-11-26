@@ -10,8 +10,8 @@ constructing k8s GVK resources.
    
 ## Build
 1. Run `dev-env connect` in `$PROJECT_ROOT` (https://github.com/mrxk/dev-env)
-1. In the container, run `elm make --output main.js src/Main.elm`
+1. In the container, run `make`
 
 As an alternative to using `dev-env`, docker build
-`$PROJECT_ROOT/.dev-env/main/Dockerfile` and use that container for the `elm`
+`$PROJECT_ROOT/.dev-env/main/Dockerfile` and use that container for the `make`
 command.

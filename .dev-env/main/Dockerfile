@@ -1,8 +1,8 @@
-FROM alpine
+FROM alpine:3.14.1
 
 LABEL creator=dev-env
 
-RUN apk add curl vim tmux sudo npm make bash
+RUN apk add curl vim tmux sudo npm make bash git
 
 RUN cd /tmp && \
     curl -L -o elm.gz https://github.com/elm/compiler/releases/download/0.19.1/binary-for-linux-64-bit.gz && \
