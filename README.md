@@ -1,8 +1,17 @@
-# Orchestration CLI UI for Electron
+# Kubernetes GVK editor
 
-## WIP
-This is a work in progress and is not complete. It attempts to provide a UI for
-constructing k8s GVK resources.
+This project provides a UI for constructing Kubernetes GVK resources.
+constructing k8s GVK resources. It parses the kubernetes openapi spec from
+https://github.com/kubernetes/kubernetes/blob/master/api/openapi-spec/swagger.json
+and generates a form for the user to fill out. As the user fills in the form a
+yaml representation of the resource is generated at the bottom which can be
+copied.
+
+## Screenshot
+<img src="screenshot.png"/>
+
+## Limitations
+Free-form objects, like CustomResourceDefinitions, are not supported
 
 ## Install
 1. Clone this project
